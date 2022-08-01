@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         var n2: Int
         var result: Int
 
+        //plus button
         binding.plus.setOnClickListener {
             if(numberField.text.isBlank()) return@setOnClickListener
 
@@ -49,6 +50,23 @@ class MainActivity : AppCompatActivity() {
 
                 n2 = numberField.text.toString().toInt()
                 result = n1 + n2
+                displayResult.text = result.toString()
+                numberField.text.clear()
+            }
+        }
+
+        //minus button
+        binding.minus.setOnClickListener {
+            if(numberField.text.isBlank()) return@setOnClickListener
+
+            n1 = numberField.text.toString().toInt()
+            numberField.text.clear()
+
+            binding.equals.setOnClickListener {
+                if(numberField.text.isBlank()) return@setOnClickListener
+
+                n2 = numberField.text.toString().toInt()
+                result = n1 - n2
                 displayResult.text = result.toString()
                 numberField.text.clear()
             }
