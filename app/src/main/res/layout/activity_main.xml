@@ -60,7 +60,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/plus_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/btn_operations"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
             <Button
                 android:id="@+id/minus"
@@ -69,6 +72,8 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/minus_button"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/btn_operations"
                 tools:ignore="ButtonStyle" />
 
             <Button
@@ -78,6 +83,8 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/multiplication_button"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/btn_operations"
                 tools:ignore="ButtonStyle" />
 
             <Button
@@ -87,6 +94,8 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/div_button"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/btn_operations"
                 tools:ignore="ButtonStyle" />
         </TableRow>
 
