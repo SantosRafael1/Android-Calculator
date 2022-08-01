@@ -20,7 +20,10 @@ class MainActivity : AppCompatActivity() {
         val numberField = binding.numberField
         val displayResult = binding.displayResult
 
-        binding.clean.setOnClickListener { numberField.text.clear() }
+        binding.clean.setOnClickListener {
+            numberField.text.clear()
+            displayResult.text = ""
+        }
 
         binding.one.setOnClickListener { numberField.text.append(binding.one.text) }
         binding.two.setOnClickListener { numberField.text.append(binding.two.text) }
