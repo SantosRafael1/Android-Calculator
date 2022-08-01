@@ -88,5 +88,22 @@ class MainActivity : AppCompatActivity() {
                 numberField.text.clear()
             }
         }
+
+        //division button
+        binding.division.setOnClickListener {
+            if(numberField.text.isBlank()) return@setOnClickListener
+
+            val value1: Double = numberField.text.toString().toDouble()
+            numberField.text.clear()
+
+            binding.equals.setOnClickListener {
+                if(numberField.text.isBlank()) return@setOnClickListener
+
+                val value2 = numberField.text.toString().toDouble()
+                val total = value1 / value2
+                displayResult.text = total.toString()
+                numberField.text.clear()
+            }
+        }
     }
 }
