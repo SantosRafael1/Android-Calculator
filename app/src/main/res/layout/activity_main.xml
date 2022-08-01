@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_gravity="bottom"
     tools:context=".MainActivity">
 
 
@@ -14,7 +15,7 @@
         android:layout_weight="1"
         android:gravity="bottom"
 
-        >
+        tools:ignore="UselessParent">
 
         <TableRow
             android:layout_width="match_parent"
@@ -26,31 +27,170 @@
                 android:id="@+id/plus"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
-                android:text="@string/plus_button" />
+                android:text="@string/plus_button"
+                tools:ignore="ButtonStyle" />
 
             <Button
                 android:id="@+id/minus"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
-                android:text="@string/minus_button" />
+                android:text="@string/minus_button"
+                tools:ignore="ButtonStyle" />
 
             <Button
                 android:id="@+id/times"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
-                android:text="@string/multiplication_button" />
+                android:text="@string/multiplication_button"
+                tools:ignore="ButtonStyle" />
 
             <Button
                 android:id="@+id/division"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
-                android:text="@string/div_button" />
+                android:text="@string/div_button"
+                tools:ignore="ButtonStyle" />
         </TableRow>
 
-        
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:textSize="@dimen/btn_text_size"
+                android:text="@string/one_button"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:textSize="@dimen/btn_text_size"
+                android:text="@string/two_button"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:textSize="@dimen/btn_text_size"
+                android:text="@string/three_button"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:textSize="@dimen/btn_text_size"
+                android:text="@string/four_button"
+                tools:ignore="ButtonStyle" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:textSize="@dimen/btn_text_size"
+                android:text="@string/five_button"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:textSize="@dimen/btn_text_size"
+                android:text="@string/six_button"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:textSize="@dimen/btn_text_size"
+                android:text="@string/seven_button"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:textSize="@dimen/btn_text_size"
+                android:text="@string/eight_button"
+                tools:ignore="ButtonStyle" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:textSize="@dimen/btn_text_size"
+                android:text="@string/nine_button"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/zero"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:textSize="@dimen/btn_text_size"
+                android:text="@string/zero_button"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/equals"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:textSize="@dimen/btn_text_size"
+                android:text="@string/equals_button"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/clean"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:textSize="@dimen/btn_text_size"
+                android:text="@string/clean_button"
+                tools:ignore="ButtonStyle" />
+
+
+        </TableRow>
+
     </TableLayout>
 </LinearLayout>
