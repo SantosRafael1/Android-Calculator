@@ -71,5 +71,22 @@ class MainActivity : AppCompatActivity() {
                 numberField.text.clear()
             }
         }
+
+        //multiplication button
+        binding.times.setOnClickListener {
+            if(numberField.text.isBlank()) return@setOnClickListener
+
+            n1 = numberField.text.toString().toInt()
+            numberField.text.clear()
+
+            binding.equals.setOnClickListener {
+                if(numberField.text.isBlank()) return@setOnClickListener
+
+                n2 = numberField.text.toString().toInt()
+                result = n1 * n2
+                displayResult.text = result.toString()
+                numberField.text.clear()
+            }
+        }
     }
 }
