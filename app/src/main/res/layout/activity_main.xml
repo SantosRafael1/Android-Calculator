@@ -74,7 +74,8 @@
                 android:text="@string/minus_button"
                 android:textColor="@color/black"
                 android:backgroundTint="@color/btn_operations"
-                tools:ignore="ButtonStyle" />
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
             <Button
                 android:id="@+id/times"
@@ -85,7 +86,8 @@
                 android:text="@string/multiplication_button"
                 android:textColor="@color/black"
                 android:backgroundTint="@color/btn_operations"
-                tools:ignore="ButtonStyle" />
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
             <Button
                 android:id="@+id/division"
@@ -96,7 +98,8 @@
                 android:text="@string/div_button"
                 android:textColor="@color/black"
                 android:backgroundTint="@color/btn_operations"
-                tools:ignore="ButtonStyle" />
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
         </TableRow>
 
 
@@ -113,7 +116,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/one_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/number_btn"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
             <Button
                 android:id="@+id/two"
@@ -122,7 +128,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/two_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/number_btn"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
             <Button
                 android:id="@+id/three"
@@ -131,7 +140,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/three_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/number_btn"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
             <Button
                 android:id="@+id/four"
@@ -140,7 +152,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/four_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/number_btn"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
         </TableRow>
 
         <TableRow
@@ -156,7 +171,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/five_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/number_btn"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
             <Button
                 android:id="@+id/six"
@@ -165,7 +183,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/six_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/number_btn"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
             <Button
                 android:id="@+id/seven"
@@ -174,7 +195,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/seven_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/number_btn"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
             <Button
                 android:id="@+id/eight"
@@ -183,7 +207,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/eight_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/number_btn"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
         </TableRow>
 
         <TableRow
@@ -199,7 +226,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/nine_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/number_btn"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
             <Button
                 android:id="@+id/zero"
@@ -208,7 +238,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/zero_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/number_btn"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
             <Button
                 android:id="@+id/equals"
@@ -217,7 +250,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/equals_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/equal_btn"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
             <Button
                 android:id="@+id/clean"
@@ -226,7 +262,10 @@
                 android:layout_margin="@dimen/button_margin"
                 android:textSize="@dimen/btn_text_size"
                 android:text="@string/clean_button"
-                tools:ignore="ButtonStyle" />
+                android:textColor="@color/black"
+                android:backgroundTint="@color/clean_btn"
+                tools:ignore="ButtonStyle"
+                tools:targetApi="lollipop" />
 
 
         </TableRow>
