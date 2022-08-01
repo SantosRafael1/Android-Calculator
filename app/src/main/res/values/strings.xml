@@ -16,4 +16,5 @@
     <string name="zero_button">0</string>
     <string name="equals_button">=</string>
     <string name="clean_button">C</string>
+    <string name="field_hint">0</string>
 </resources>
